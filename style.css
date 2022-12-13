@@ -24,9 +24,11 @@ body{
   display: flex;
   flex-direction: row;
   gap: 35px;
-  padding-right: 200px;
+  padding-right: 20px;
   padding-top: 15px;
   padding-bottom: 15px;
+  flex-wrap: wrap;
+
 }
 
 .cabecalho-menu-item{
@@ -42,6 +44,7 @@ body{
   justify-content: space-around;
   align-items: center;
   padding-bottom: 50px;
+  flex-wrap: wrap-reverse;
   
 
 }
@@ -83,6 +86,7 @@ body{
   padding-top: 40px;
   align-items: center;
   padding-bottom: 40px;
+  justify-content: center;
 
 }
 
@@ -132,6 +136,8 @@ body{
   display: flex;
   gap:70px;
   padding-bottom:80px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .skills-icon-item{
@@ -139,6 +145,8 @@ body{
   padding: 30px;
   border-radius: 10px;
   box-shadow: 4px 5px 4px rgba( 0,0,0,0.25);
+  height:150px;
+  width:150px;
 
 
 }
@@ -150,6 +158,7 @@ body{
   display:flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
 }
 
@@ -165,6 +174,9 @@ body{
 .projetos-icon{
   display: flex;
   gap:70px;
+  flex-wrap: wrap;
+  justify-content: center;
+  
 }
 
 .projetos-icon-item{
@@ -172,6 +184,8 @@ body{
   padding: 30px;
   border-radius: 10px;
   box-shadow: 4px 5px 4px rgba( 0,0,0,0.25);
+  height:150px;
+  width:150px;
 
 
 }
@@ -180,8 +194,6 @@ body{
   display:flex;
   padding: 20px;
   gap:107px;
-
-
 }
 
 .projetos-nomes-item{
@@ -198,15 +210,14 @@ body{
   display: flex;
   padding: 10px;
   align-items:center;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .contatos-feito{
   color:rgb(136, 131, 131);
   font-family: 'Sarala', sans-serif;
   font-size: 20px;
-  justify-items: center;
-  padding-left: 400px;
 
 }
 
@@ -217,4 +228,114 @@ body{
 
 .contatos-botao-item{
   border-radius: 10px;
+  
+}
+
+@media screen and (max-width: 670px){
+
+.inicio-imagem{
+  width: 350px;
+  height: 350px;
+}
+
+.sobre-paragrafo{
+  font-family: 'Sarala', sans-serif;
+  color: #FFF2E7;
+  font-weight: 400;
+  font-size:20px;
+  padding-bottom:30px;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cabecalho-menu{
+  padding-right: 0px;
+}
+
+
+.inicio-texto{
+  font-family: 'Sarala', sans-serif;
+  color: #FFF2E7;
+  font-weight: 400;
+  font-size:15px
+}
+
+.inicio-texto-nome{
+  color: #FFF2E7;
+  padding-left: 74px;
+  font-size: 40px;
+  font-weight: 700;
+  box-shadow: 10px black;
+
+
+}
+
+.inicio-texto-botao{
+  background-color: #FFF2E7;
+  width: 180px;
+  height: 60px;
+  border:none;
+  border-radius: 20px;
+  color: black;
+  font-family: 'Sarala', sans-serif;
+  font-size:25px;
+  box-shadow: 4px 5px 4px rgba( 0,0,0,0.25);
+
+}
+
+.skills-icon{
+  display: flex;
+  gap:50px;
+  padding-bottom:80px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-icon-item{
+  background-color: #FFF2E7;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 4px 5px 4px rgba( 0,0,0,0.25);
+  height:120px;
+  width:120px;
+
+
+}
+
+.projetos-icon{
+  display: flex;
+  gap:50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.projetos-icon-item{
+  background-color: #FFF2E7;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 4px 5px 4px rgba( 0,0,0,0.25);
+  height:120px;
+  width:120px;
+
+
+}
+
+.projetos-nomes-item{
+  
+  
+  font-family: 'Sarala', sans-serif;
+  color: #FFF2E7;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+
 }
