@@ -5,33 +5,36 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    
 }
 
 body{
-    font-size: 100%;
-    background: #f3904f; /* fallback for old browsers */
+  width: 100%;
+  font-size: 100%;
+  background: #f3904f; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #f3904f, #3b4371); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f3904f, #3b4371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @media screen and (max-width: 670px){
 
+.inicio{
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
 .inicio-imagem{
   width: 350px;
   height: 350px;
 }
 
-.sobre-paragrafo{
-  font-family: 'Sarala', sans-serif;
-  color: #FFF2E7;
-  font-weight: 400;
-  font-size:20px;
-  padding-bottom:30px;
-  text-align: justify;
-  padding-left: 15px;
-  padding-right: 15px;
-
+#oi{
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
+
 .cabecalho{
   display: flex;
   flex-direction: row;
@@ -47,7 +50,7 @@ body{
   font-family: 'Sarala', sans-serif;
   color: #FFF2E7;
   font-weight: 400;
-  font-size:15px
+  font-size:15px;
 }
 
 .inicio-texto-nome{
