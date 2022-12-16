@@ -1,0 +1,31 @@
+
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(20px);
+  border-bottom: 0.4px solid #FFF2E7;
+}
+
+.cabecalho-menu{
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  flex-wrap: wrap;
+
+}
+
+.cabecalho-menu-item{
+ font-family: 'Sarala', sans-serif;
+ color: #FFF2E7;
+ font-weight: 400;
+ font-size: 18px;
+ 
+}
+

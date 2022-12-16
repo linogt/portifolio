@@ -5,93 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriel Garcia</title>
-    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link rel="stylesheet" type="text/css" href="css/style/style.css"> 
+    <link rel="stylesheet" type="text/css" href="css/components/cabecalho.css"> 
+    <link rel="stylesheet" type="text/css" href="css/components/contatos.css"> 
+    <link rel="stylesheet" type="text/css" href="css/components/inicio.css"> 
+    <link rel="stylesheet" type="text/css" href="css/components/projetos.css"> 
+    <link rel="stylesheet" type="text/css" href="css/components/skills.css"> 
+    <link rel="stylesheet" type="text/css" href="css/components/sobre.css"> 
 </head>
 
 <body>
     <header class="cabecalho"> 
         <nav class="cabecalho-menu"> 
-            <a class="cabecalho-menu-item">Início</a>
-            <a class="cabecalho-menu-item">Sobre</a> 
-            <a class="cabecalho-menu-item">Skills</a>
-            <a class="cabecalho-menu-item">Projetos</a>
+            <a href="#iniciolink" class="cabecalho-menu-item">Início</a>
+            <a href="#sobrelink" class="cabecalho-menu-item">Sobre</a> 
+            <a href="#skillslink" class="cabecalho-menu-item">Skills</a>
+            <a href="#projetoslink" class="cabecalho-menu-item">Projetos</a>
 
         </nav>
     </header>
+    <a name="iniciolink"></a>
     <section class="inicio">
         <div class="inicio-texto"> 
             <h1 class="inicio-texto-item"> Oi, eu sou<br> <span class="inicio-texto-nome"> Gabriel Garcia</span> <br>Junior Developer</h1>
-            <a download="Gabriel Lino Topa Garcia - Currículo.pdf" href="Gabriel Lino Topa Garcia - Currículo.pdf" type="application/pdf">
+            <a download="Gabriel Lino Topa Garcia - Currículo.pdf" href="assets/pdf/Gabriel Lino Topa Garcia - Currículo.pdf" type="application/pdf">
                 <button class="inicio-texto-botao"> Download CV </button>
             </a>
         </div>
-        <img class="inicio-imagem" src="avatar1.jpg" alt="Avatar">
+        <img class="inicio-imagem" src="assets/img/avatar1.jpg" alt="Avatar">
     </section>
-    <section class="sobre">
+    <a name="sobrelink"></a>
+    <section class="sobre"> 
         <h1  class="sobre-texto">Sobre</h1>
         <p class="sobre-paragrafo">Meu nome é Gabriel Garcia e sou estudante de Engenharia de Computação da Universidade Federal de Mato Grosso do Sul (UFMS). Por meio da faculdade aprendi Python, Java, C++ e fiz projetos de Banco de Dados usando o MySQL e PostgreSQL. A partir de cursos online, estudo tecnologias voltadas ao Front-End como HTML, CSS e JavaScript. Atualmente estou buscando oportunidades de estágios para obter experiência e conhecimento prático no que tange a área de tecnologia da informação.</p>
     </section>
-    <section class="skills">
+    <a name="skillslink" ></a>
+    <section  class="skills">
         <h1 class="skills-titulo">Skills</h1>
         <figure class="skills-icon">
             <div class="skills-icon-div">
-                <img class="skills-icon-item" src="html.png"> 
+                <img class="skills-icon-item" src="assets/img/html.png"> 
                 <h2 class="projetos-nomes-item">HTML</h2>
             </div>
             <div class="skills-icon-div">
-                <img class="skills-icon-item" src="arquivo-css.png">
+                <img class="skills-icon-item" src="assets/img/arquivo-css.png">
                 <h2 class="projetos-nomes-item">CSS</h2>
             </div>
             <div class="skills-icon-div">
-                <img class="skills-icon-item" src="arquivo-python.png">
+                <img class="skills-icon-item" src="assets/img/arquivo-python.png">
                 <h2 class="projetos-nomes-item">Python</h2>
             </div>
             <div class="skills-icon-div">
-                <img class="skills-icon-item" src="c-.png">
+                <img class="skills-icon-item" src="assets/img/c-.png">
                 <h2 class="projetos-nomes-item">C++</h2>
             </div>
         <div class="skills-icon-div">
-            <img class="skills-icon-item" src="servidor-sql.png">
+            <img class="skills-icon-item" src="assets/img/servidor-sql.png">
             <h2 class="projetos-nomes-item">SQL</h2>
         </div>
         <div class="skills-icon-div">
-            <img class="skills-icon-item" src="java.png">
+            <img class="skills-icon-item" src="assets/img/java.png">
             <h2 class="projetos-nomes-item">Java</h2>
         </div>
         <div class="skills-icon-div">
-            <img class="skills-icon-item" src="git.png">
+            <img class="skills-icon-item" src="assets/img/git.png">
             <h2 class="projetos-nomes-item">Git</h2>
         </div>
         <div class="skills-icon-div">
-            <img class="skills-icon-item" src="escritorio.png">
+            <img class="skills-icon-item" src="assets/img/escritorio.png">
             <h2 class="projetos-nomes-item">Office</h2>
         </div>
         </figure>
     </section>
-
-    <section class="projetos">
+    <a name="projetoslink"></a>
+    <section class="projetos"> 
         <h1 class="projetos-titulo">Projetos</h1>
         <figure class="projetos-icon">
             <div class="projetos-icon-div">
                 <a href="https://linogt.github.io/portifolio/">
-                    <img class="projetos-icon-item" src="avatar1.jpg">
+                    <img id="avatar" class="projetos-icon-item" src="assets/img/avatar1.jpg">
                 </a>
                 <h2 class="projetos-nomes-item">Portifólio</h2>
             </div>
             <div class="projetos-icon-div">
-                <img class="projetos-icon-item" src="cadeado.png">
+                <img class="projetos-icon-item" src="assets/img/cadeado.png">
                 <h2 class="projetos-nomes-item">Em breve</h2>
             </div>
             <div class="projetos-icon-div">
-                <img class="projetos-icon-item" src="cadeado.png">
+                <img class="projetos-icon-item" src="assets/img/cadeado.png">
                 <h2 class="projetos-nomes-item">Em breve</h2>
             </div>  
             <div class="projetos-icon-div">
-                <img class="projetos-icon-item" src="cadeado.png">
+                <img class="projetos-icon-item" src="assets/img/cadeado.png">
                 <h2 class="projetos-nomes-item">Em breve</h2>
             </div>
             <div class="projetos-icon-div">
-                <img class="projetos-icon-item" src="cadeado.png">
+                <img class="projetos-icon-item" src="assets/img/cadeado.png">
                 <h2 class="projetos-nomes-item">Em breve</h2>
             </div>
         </figure>
@@ -100,11 +109,10 @@
         <h1 class="contatos-feito">Feito por Gabriel Garcia</h1>
         <figure class="contatos-botao">
             <a target="_blank" href="https://www.linkedin.com/in/gabriel-garcia-565550246"> 
-                <img class="contatos-botao-item" src="linkedin.png" height="35px" width="35px">
+                <img class="contatos-botao-item" src="assets/img/linkedin.png">
             </a>
             <a target="_blank" href="https://github.com/linogt">
-                <img class="contatos-botao-item" src="github.png"
-                height="35px" width="35px">
+                <img class="contatos-botao-item" src="assets/img/github.png">
             </a>
         </figure>
     </section>

@@ -1,0 +1,28 @@
+
+.contatos{
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contatos-feito{
+    color:rgb(136, 131, 131);
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+  
+  }
+  
+  .contatos-botao{
+    display: flex;
+    gap: 15px;
+  }
+  
+  .contatos-botao-item{
+    border-radius: 10px;
+    height: 35px;
+    width: 35px;
+    
+  }
