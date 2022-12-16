@@ -21,6 +21,7 @@ body{
 .inicio{
   padding-top: 20px;
   padding-left: 10px;
+  padding-right: 10px;
 }
 
 .inicio-imagem{
@@ -34,6 +35,15 @@ body{
   padding-right: 20px;
 }
 
+#oieusou{
+  font-size:40px;
+  color:rgb(236, 226, 247);
+}
+
+#gabriel{
+  font-size: 40px;
+  color:#FFF2E7;
+}
 
 .cabecalho{
   display: flex;
@@ -45,23 +55,6 @@ body{
   padding-right: 0px;
 }
 
-
-.inicio-texto{
-  font-family: 'Sarala', sans-serif;
-  color: #FFF2E7;
-  font-weight: 400;
-  font-size:15px;
-}
-
-.inicio-texto-nome{
-  color: #FFF2E7;
-  padding-left: 74px;
-  font-size: 40px;
-  font-weight: 700;
-  box-shadow: 10px black;
-
-
-}
 
 .inicio-texto-botao{
   background-color: #FFF2E7;
