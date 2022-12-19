@@ -91,7 +91,7 @@ body{
 
 .projetos-icon{
   display: flex;
-  gap:50px;
+  gap:30px;
   flex-wrap: wrap;
   justify-content: center;
   

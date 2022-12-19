@@ -8,6 +8,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-left: 3px;
+  padding-right:3px;
 
 }
 
@@ -22,7 +24,7 @@
 
 .projetos-icon{
   display: flex;
-  gap:70px;
+  gap:50px;
   flex-wrap: wrap;
   justify-content: center;
   
